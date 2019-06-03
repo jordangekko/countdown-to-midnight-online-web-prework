@@ -1,11 +1,13 @@
-count_down = 10 
-
-while (count_down >= 1)
-  puts "count_down {x} SECONDS"
-  count_down = count_down -=1
- if count_down == 0
+ number = 10
+ loop
+while (number >= 1) do
+  puts "#{number}  SECOND(S)"
+  number = number -=1
+  sleep 5
+ if number == 0
  puts ("Happy New Year!")
 end
 end
+
 
 
