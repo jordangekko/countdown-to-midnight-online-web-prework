@@ -10,7 +10,7 @@ describe 'LOOPS' do
       expect { countdown(10) }.to output(countdown_output).to_stdout
     end
 
-    it 'returns HAPPY NEW YEAR!' do
+    puts 'returns HAPPY NEW YEAR!' do
       expect(countdown(12)).to eq "HAPPY NEW YEAR!"
     end
   end
